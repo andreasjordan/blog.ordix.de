@@ -1,5 +1,10 @@
 # Using the SQL Server First Responder Kit with the PowerShell module dbatools
 
+Autor: Andreas Jordan (anj@ordix.de)
+
+Published at: (Not yet published in english / german version: https://blog.ordix.de/mit-dem-powershell-modul-dbatools-das-sql-server-first-responder-kit-nutzen)
+
+
 The SQL Server First Responder Kit by Brent Ozar should be familiar to most database administrators, all others please have a look [at Brent Ozar's website](https://www.brentozar.com/first-aid/) or [directly at the corresponding GitHub repository](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit).
 
 The PowerShell module dbatools may not be known to everyone yet, especially if you haven't had any contact with PowerShell before or fully rely on SQL Server Management Studio. The [website](https://dbatools.io/) has recently moved to GitHub Pages, so there may still be issues in one place or another, but the [documentation](https://docs.dbatools.io/) should work in any case. If you have any questions about dbatools, please feel free to contact us, we are using the module successfully with some customers in the meantime.
@@ -42,5 +47,3 @@ This file can now be forwarded, for example, to a service provider commissioned 
 	$spBlitzFromFile | Out-GridView -Title 'sp_Blitz (from a file)'
 
 If you have now run the commands on your end and actually have questions about the results of sp_Blitz, please contact us.
-
-Andreas Jordan, info@ordix.de

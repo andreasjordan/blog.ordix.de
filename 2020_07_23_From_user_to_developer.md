@@ -1,5 +1,10 @@
 # From user to developer - using the PowerShell module dbatools to manage Microsoft SQL Servers
 
+Autor: Andreas Jordan (anj@ordix.de)
+
+Published at: (Not yet published in english / german version: https://blog.ordix.de/vom-anwender-zum-entwickler)
+
+
 ### First use in our training courses
 
 The story started when I wanted to show my participants in the [Administration Course for Microsoft SQL Server](https://seminare.ordix.de/seminare/microsoft-sql-server/verwalten-einer-sql-datenbankinfrastruktur-moc-21764.html) in what ways they can perform administrative activities: With the graphical interface of SQL Server Management Studio, with SQL scripts or just with PowerShell, specifically with the [dbatools](https://dbatools.io/) module.
@@ -43,5 +48,3 @@ Of course, it also happens that my suggestions are not well received. Or I have 
 ### And how does it benefit ORDIX AG and its customers?
 
 By familiarizing myself with the structure of the module, it is now much easier for me to analyze the causes of unexpected behavior. It's not always a fault in the module, perhaps I simply had different expectations of how it would work. It's also easier for me to incorporate adjustments, initially just for my personal purposes - but of course also for our customers. And they are welcome to contact us if they have any questions about how to use dbatools. Together we can select the right commandlets and integrate them into a customer-specific script. If errors occur, we can analyze them directly on the customer's system, make necessary adjustments and also push the integration into the official release.
-
-Andreas Jordan, info@ordix.de
