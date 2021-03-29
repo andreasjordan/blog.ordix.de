@@ -1,9 +1,14 @@
 # Microsoft SQL Server: Einrichten einer Always On Verfügbarkeitsgruppe mit PowerShell
 
+Autor: Andreas Jordan (anj@ordix.de)
+
+Veröffentlich unter: https://blog.ordix.de/microsoft-sql-server-einrichten-einer-always-on-verfuegbarkeitsgruppe-mit-powershell-teil-2
+
+
 ## Teil 2: Das Windows Failovercluster
 
 In dieser Artikelserie möchte ich zeigen, wie eine Always On Verfügbarkeitsgruppe mit PowerShell schnell und komfortabel aufgesetzt werden kann.  
-Im [ersten Teil](LINK) ging es zunächst um die Einrichtung einer entsprechenden Umgebung, jetzt wollen wir diese mit Leben füllen.
+Im [ersten Teil](2020_12_30_Always_On_mit_PowerShell_1_Umgebung.md) ging es zunächst um die Einrichtung einer entsprechenden Umgebung, jetzt wollen wir diese mit Leben füllen.
 
 Für allgemeine Informationen zu Verfügbarkeitsgruppen verweise ich hier lediglich auf die Dokumentation von Microsoft: [Was ist eine Always On-Verfügbarkeitsgruppe](https://docs.microsoft.com/de-de/sql/database-engine/availability-groups/windows/overview-of-always-on-availability-groups-sql-server).  
 Hier nur soviel: Wir benötigen als Basis ein Windows Failovercluster, das sich mit wenigen PowerShell-Befehlen einrichten lässt.
@@ -58,6 +63,4 @@ Da wir in der Umgebung keinen gemeinsamen Speicher für das Quorum haben, nutzen
 	}
 	$Cluster | Set-ClusterQuorum -NodeAndFileShareMajority "\\$DomainController\WindowsClusterQuorum_$ClusterName" | Format-List
 
-Damit ist unser Failovercluster auch schon einsatzbereit und es geht weiter mit dem [dritten Teil](LINK) und der Installation der SQL Server Instanzen.
-
-Andreas Jordan, info@ordix.de
+Damit ist unser Failovercluster auch schon einsatzbereit und es geht weiter mit dem [dritten Teil](2021_01_05_Always_On_mit_PowerShell_3_Instanzen.md) und der Installation der SQL Server Instanzen.

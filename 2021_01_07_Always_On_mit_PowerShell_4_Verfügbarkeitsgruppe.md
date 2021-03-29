@@ -1,9 +1,14 @@
 # Microsoft SQL Server: Einrichten einer Always On Verfügbarkeitsgruppe mit PowerShell
 
+Autor: Andreas Jordan (anj@ordix.de)
+
+Veröffentlich unter: https://blog.ordix.de/microsoft-sql-server-einrichten-einer-always-on-verfuegbarkeitsgruppe-mit-powershell-teil-4
+
+
 ## Teil 4: Die Always On Verfügbarkeitsgruppe
 
 In dieser Artikelserie möchte ich zeigen, wie eine Always On Verfügbarkeitsgruppe mit PowerShell schnell und komfortabel aufgesetzt werden kann.  
-Im [ersten Teil](LINK) ging es zunächst um die Einrichtung einer entsprechenden Umgebung, im [zweiten Teil](LINK) haben wir das Windows Failovercluster eingerichtet, im [dritten Teil](LINK) die SQL Server Instanzen und die Beispieldatenbank, jetzt wollen wir endlich die Verfügbarkeitsgruppe einrichten.
+Im [ersten Teil](2020_12_30_Always_On_mit_PowerShell_1_Umgebung.md) ging es zunächst um die Einrichtung einer entsprechenden Umgebung, im [zweiten Teil](2020_12_31_Always_On_mit_PowerShell_2_Failovercluster.md) haben wir das Windows Failovercluster eingerichtet, im [dritten Teil](2021_01_05_Always_On_mit_PowerShell_3_Instanzen.md) die SQL Server Instanzen und die Beispieldatenbank, jetzt wollen wir endlich die Verfügbarkeitsgruppe einrichten.
 
 Wir arbeiten wieder in einer administrativen PowerShell auf dem Client WIN10, wie schon im letzten Teil angesprochen empfehle ich dazu die "Windows PowerShell ISE". 
 
@@ -89,5 +94,3 @@ Mit Get-DbaAgReplica und Get-DbaAgDatabase können Sie sich anschließend den Zu
 Über das Commandlet New-DbaAvailabilityGroup können einige weitere Optionen eingestellt werden, ich belasse es hier aber bei den Voreinstellungen. So wird als [Verfügbarkeitsmodus](https://docs.microsoft.com/de-de/sql/database-engine/availability-groups/windows/availability-modes-always-on-availability-groups) der synchronen Modus gewählt, damit ein automatisches [Failover](https://docs.microsoft.com/de-de/sql/database-engine/availability-groups/windows/failover-and-failover-modes-always-on-availability-groups) möglich ist.
 
 Damit ist die Verfügbarkeitsgruppe eingerichtet und das (vorläufige) Ende dieser Artikelserie erreicht.
-
-Andreas Jordan, info@ordix.de

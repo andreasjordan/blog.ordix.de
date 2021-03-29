@@ -1,9 +1,14 @@
 # Microsoft SQL Server: Setting Up an Always On Availability Group with PowerShell
 
+Author: Andreas Jordan (anj@ordix.de)
+
+Published at: https://blog.ordix.de/microsoft-sql-server-setting-up-an-always-on-availability-group-with-powershell-part-3
+
+
 ## Part 3: The Microsoft SQL Server Instances
 
 In this series of articles I would like to show how an Always On availability group can be set up quickly and comfortably with PowerShell.  
-In the [first part](LINK) we first dealt with setting up an appropriate environment, in the [second part](LINK) we set up the Windows failover cluster, now we want to install the SQL Server instances.
+In the [first part](2020_12_30_Always_On_with_PowerShell_1_Environment.md) we first dealt with setting up an appropriate environment, in the [second part](2020_12_31_Always_On_with_PowerShell_2_Failovercluster.md) we set up the Windows failover cluster, now we want to install the SQL Server instances.
 
 Besides the PowerShell module [SqlServer](https://docs.microsoft.com/en-us/sql/powershell/download-sql-server-ps-module) provided by Microsoft, the PowerShell module [dbatools](https://dbatools.io/) developed by a large number of authors has become established - which I will use in the following.
 
@@ -97,6 +102,4 @@ In order to have a database for our availability group, we restore the Adventure
 	$Database.RecoveryModel = 'Full'
 	$Database.Alter()
 
-With that, our SQL Server instances are also ready to go and we move on to [part four](LINK) and setting up the availability group.
-
-Andreas Jordan, info@ordix.de
+With that, our SQL Server instances are also ready to go and we move on to [part four](2021_01_07_Always_On_with_PowerShell_4_Availability_group.md) and setting up the availability group.

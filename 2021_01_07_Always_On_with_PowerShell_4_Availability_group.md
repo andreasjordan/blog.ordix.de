@@ -1,9 +1,14 @@
 # Microsoft SQL Server: Setting Up an Always On Availability Group with PowerShell
 
+Author: Andreas Jordan (anj@ordix.de)
+
+Published at: https://blog.ordix.de/microsoft-sql-server-setting-up-an-always-on-availability-group-with-powershell-part-4
+
+
 ## Part 4: The Always On Availability Group
 
 In this series of articles I would like to show how an Always On availability group can be set up quickly and comfortably with PowerShell.  
-In the [first part](LINK) we first dealt with setting up an appropriate environment, in the [second part](LINK) we set up the Windows failover cluster, in the [third part](LINK) the SQL Server instances and the sample database, now we finally want to set up the availability group.
+In the [first part](2020_12_30_Always_On_with_PowerShell_1_Environment.md) we first dealt with setting up an appropriate environment, in the [second part](2020_12_31_Always_On_with_PowerShell_2_Failovercluster.md) we set up the Windows failover cluster, in the [third part](2021_01_05_Always_On_with_PowerShell_3_Instances.md) the SQL Server instances and the sample database, now we finally want to set up the availability group.
 
 We work again in an administrative PowerShell on the client WIN10, as already mentioned in the last part I recommend the "Windows PowerShell ISE". 
 
@@ -89,5 +94,3 @@ You can then use Get-DbaAgReplica and Get-DbaAgDatabase to view the state of the
 About the commandlet New-DbaAvailabilityGroup some further options can be set, I leave it here however with the default settings. So as [availability mode](https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/availability-modes-always-on-availability-groups) the synchronous mode is selected, so that an automatic [failover](https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/failover-and-failover-modes-always-on-availability-groups) is possible.
 
 This sets up the availability group and marks the (temporary) end of this article series.
-
-Andreas Jordan, info@ordix.de

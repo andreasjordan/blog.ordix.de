@@ -1,9 +1,14 @@
 # Microsoft SQL Server: Setting Up an Always On Availability Group with PowerShell
 
+Author: Andreas Jordan (anj@ordix.de)
+
+Published at: https://blog.ordix.de/microsoft-sql-server-setting-up-an-always-on-availability-group-with-powershell-part-2
+
+
 ## Part 2: The Windows failover cluster
 
 In this series of articles I would like to show how an Always On availability group can be set up quickly and comfortably with PowerShell.  
-In the [first part](LINK) we first dealt with the setup of a corresponding environment, now we want to fill it with life.
+In the [first part](2020_12_30_Always_On_with_PowerShell_1_Environment.md) we first dealt with the setup of a corresponding environment, now we want to fill it with life.
 
 For general information on availability groups, I simply refer here to Microsoft's documentation: [What is an Always On availability group](https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/overview-of-always-on-availability-groups-sql-server).  
 Here is just this: We need a Windows failover cluster as a basis, which can be set up with a few PowerShell commands.
@@ -59,6 +64,4 @@ Since we do not have shared storage for the quorum in the environment, we use a 
 	}
 	$Cluster | Set-ClusterQuorum -NodeAndFileShareMajority "\\$DomainController\WindowsClusterQuorum_$ClusterName" | Format-List
 
-With this, our failover cluster is ready to go and we continue with the [third part](LINK) and the installation of the SQL Server instances.
-
-Andreas Jordan, info@ordix.de
+With this, our failover cluster is ready to go and we continue with the [third part](2021_01_05_Always_On_with_PowerShell_3_Instances.md) and the installation of the SQL Server instances.

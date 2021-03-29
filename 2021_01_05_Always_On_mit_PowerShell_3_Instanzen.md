@@ -1,9 +1,14 @@
 # Microsoft SQL Server: Einrichten einer Always On Verfügbarkeitsgruppe mit PowerShell
 
+Autor: Andreas Jordan (anj@ordix.de)
+
+Veröffentlich unter: https://blog.ordix.de/microsoft-sql-server-einrichten-einer-always-on-verfuegbarkeitsgruppe-mit-powershell-teil-3
+
+
 ## Teil 3: Die Microsoft SQL Server Instanzen
 
 In dieser Artikelserie möchte ich zeigen, wie eine Always On Verfügbarkeitsgruppe mit PowerShell schnell und komfortabel aufgesetzt werden kann.  
-Im [ersten Teil](LINK) ging es zunächst um die Einrichtung einer entsprechenden Umgebung, im [zweiten Teil](LINK) haben wir das Windows Failovercluster eingerichtet, jetzt wollen wir die SQL Server Instanzen installieren.
+Im [ersten Teil](2020_12_30_Always_On_mit_PowerShell_1_Umgebung.md) ging es zunächst um die Einrichtung einer entsprechenden Umgebung, im [zweiten Teil](2020_12_31_Always_On_mit_PowerShell_2_Failovercluster.md) haben wir das Windows Failovercluster eingerichtet, jetzt wollen wir die SQL Server Instanzen installieren.
 
 Neben dem von Microsoft zur Verfügung gestellten PowerShell-Modul [SqlServer](https://docs.microsoft.com/de-de/sql/powershell/download-sql-server-ps-module) hat sich das von einer Vielzahl von Autoren entwickelte PowerShell-Modul [dbatools](https://dbatools.io/) etabliert - welches ich im Folgenden nutzen werden.
 
@@ -97,6 +102,4 @@ Damit wir eine Datenbank für unsere Verfügbarkeitsgruppe haben, stellen wir au
 	$Database.RecoveryModel = 'Full'
 	$Database.Alter()
 
-Damit sind unsere SQL Server Instanzen auch schon einsatzbereit und es geht weiter mit dem [vierten Teil](LINK) und der Einrichtung der Verfügbarkeitsgruppe.
-
-Andreas Jordan, info@ordix.de
+Damit sind unsere SQL Server Instanzen auch schon einsatzbereit und es geht weiter mit dem [vierten Teil](2021_01_07_Always_On_mit_PowerShell_4_Verfügbarkeitsgruppe.md) und der Einrichtung der Verfügbarkeitsgruppe.

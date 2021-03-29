@@ -1,5 +1,10 @@
 # Microsoft SQL Server: Einrichten einer Always On Verfügbarkeitsgruppe mit PowerShell
 
+Autor: Andreas Jordan (anj@ordix.de)
+
+Veröffentlich unter: https://blog.ordix.de/microsoft-sql-server-einrichten-einer-always-on-verfuegbarkeitsgruppe-mit-powershell-teil-1
+
+
 ## Teil 1: Die Umgebung
 
 In dieser Artikelserie möchte ich zeigen, wie eine Always On Verfügbarkeitsgruppe mit PowerShell schnell und komfortabel aufgesetzt werden kann.  
@@ -12,7 +17,7 @@ Wenn Sie bereits erste Erfahrungen mit PowerShell haben, können Sie die Befehle
 Sollten Sie bisher noch nicht mit PowerShell arbeiten, so bekommen Sie hier einen ersten Einblick in die Arbeit mit dieser Skriptsprache. Wenn Sie mehr wissen möchten, besuchen Sie doch unser Seminar [Windows PowerShell für Administratoren](https://seminare.ordix.de/seminare/entwicklung/script-sprachen/windows-powershell-f%C3%BCr-administratoren.html).
 
 Ich möchte mit möglichst wenig Aufwand eine Umgebung aufbauen, um Ihnen die Einrichtung einer Always On Verfügbarkeitsgruppe zu zeigen. Daher versuche ich die Umgebung möglichst einfach zu halten, vor allem auch was das Thema Sicherheit angeht. So werde ich durchgängig mit dem Domänenadministrator arbeiten und diesen auch zur Administration der SQL Server Instanzen verwenden.  
-Gerne unterstütze ich Sie dabei, die Skripte an Ihre Anforderungen anzupassen und eine individuelle Umgebung mit Ihnen zusammen aufzubauen. Sie erreichen mich per [Mail](mailto:info@ordix.de).
+Gerne unterstütze ich Sie dabei, die Skripte an Ihre Anforderungen anzupassen und eine individuelle Umgebung mit Ihnen zusammen aufzubauen. Sie erreichen mich per [Mail](mailto:anj@ordix.de).
 
 
 ### Automatisierte Einrichtung von virtuellen Maschinen
@@ -127,6 +132,4 @@ Wenn Sie die Einrichtung von WIN10 abgeschlossen haben ist das der geeignete Zei
 	Snapshot-Lab ; Run-Lab
 
 Wir haben jetzt eine Umgebung mit einer Windows-Domäne, zwei Mitglieds-Servern sowie einem Client mit den zur Installation benötigten Quellen.  
-Im [nächsten Teil](LINK) richten wir dann das Windows Failovercluster ein.
-
-Andreas Jordan, info@ordix.de
+Im [nächsten Teil](2020_12_31_Always_On_mit_PowerShell_2_Failovercluster.md) richten wir dann das Windows Failovercluster ein.

@@ -1,5 +1,10 @@
 # Microsoft SQL Server: Setting Up an Always On Availability Group with PowerShell
 
+Author: Andreas Jordan (anj@ordix.de)
+
+Published at: https://blog.ordix.de/microsoft-sql-server-setting-up-an-always-on-availability-group-with-powershell-part-1
+
+
 ## Part 1: The environment
 
 In this series of articles I would like to show how an Always On availability group can be set up quickly and conveniently with PowerShell.  
@@ -12,7 +17,7 @@ If you already have some experience with PowerShell, you can probably follow the
 If you haven't worked with PowerShell before, this will give you a first look at working with this scripting language. If you want to know more, please visit our seminar [Windows PowerShell for Administrators](https://seminare.ordix.de/seminare/entwicklung/script-sprachen/windows-powershell-f%C3%BCr-administratoren.html).
 
 I want to build an environment with as little effort as possible to show you how to set up an Always On availability group. Therefore, I try to keep the environment as simple as possible, especially when it comes to security. So I will work with the domain administrator throughout and also use it to administer the SQL Server instances.  
-I will gladly support you in adapting the scripts to your requirements and in building an individual environment together with you. You can reach me by [mail](mailto:info@ordix.de).
+I will gladly support you in adapting the scripts to your requirements and in building an individual environment together with you. You can reach me by [mail](mailto:anj@ordix.de).
 
 
 ### Automated virtual machine setup
@@ -129,6 +134,4 @@ When you have finished setting up WIN10, this is a good time to take a snapshot 
 	Snapshot-Lab ; Run-Lab
 
 We now have an environment with a Windows domain, two member servers, and a client with the sources needed for installation.  
-In the [next part](LINK) we will then set up the Windows failover cluster.
-
-Andreas Jordan, info@ordix.de
+In the [next part](2020_12_31_Always_On_with_PowerShell_2_Failovercluster.md) we will then set up the Windows failover cluster.
