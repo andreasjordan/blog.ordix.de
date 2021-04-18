@@ -28,10 +28,10 @@ dbatools im Detail - Was passiert beim Aufruf von Invoke-DbaQuery?
 ### Blog posts in english:
 
 From user to developer - using the PowerShell module dbatools to manage Microsoft SQL Servers  
-[GitHub](2020_07_23_From_user_to_developer.md)
+[GitHub](2020_07_23_From_user_to_developer.md) / [blog.ordix.de](https://blog.ordix.de/powershell-module-dbatools-to-manage-microsoft-sql-servers)
 
 Using the SQL Server First Responder Kit with the PowerShell module dbatools  
-[GitHub](2020_12_18_Using_the_First_Responder_Kit_with_dbatools.md)
+[GitHub](2020_12_18_Using_the_First_Responder_Kit_with_dbatools.md) / [blog.ordix.de](https://blog.ordix.de/sql-server-first-responder-kit-powershell-module-dbatools)
 
 Microsoft SQL Server: Setting Up an Always On Availability Group with PowerShell / Part 1: The environment  
 [GitHub](2020_12_30_Always_On_with_PowerShell_1_Environment.md) / [blog.ordix.de](https://blog.ordix.de/microsoft-sql-server-setting-up-an-always-on-availability-group-with-powershell-part-1)
