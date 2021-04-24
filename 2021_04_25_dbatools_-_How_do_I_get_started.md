@@ -1,6 +1,6 @@
 # dbatools: How do I get started?
 
-Author: Andreas Jordan
+Author: Andreas Jordan (anj@ordix.de)
 
 
 

@@ -1,6 +1,6 @@
 # How do I install the PowerShell module dbatools?
 
-Author: Andreas Jordan
+Author: Andreas Jordan (anj@ordix.de)
 
 
 

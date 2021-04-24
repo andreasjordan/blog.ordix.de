@@ -1,6 +1,6 @@
 # dbatools: Wie fange ich nur an?
 
-Autor: Andreas Jordan
+Autor: Andreas Jordan (anj@ordix.de)
 
 
 
