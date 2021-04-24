@@ -26,7 +26,7 @@ dbatools im Detail - Was passiert beim Aufruf von Invoke-DbaQuery?
 Wie installiere ich das PowerShell-Modul dbatools?  
 [GitHub](2021_04_24_Wie_installiere_ich_das_PowerShell-Modul_dbatools.md)
 
-dbatools: Wie fange ich nur an?
+dbatools: Wie fange ich nur an?  
 [GitHub](2021_04_25_dbatools_-_Wie_fange_ich_nur_an.md)
 
 
@@ -54,8 +54,8 @@ Microsoft SQL Server: Setting Up an Always On Availability Group with PowerShell
 dbatools in detail - What happens when Invoke-DbaQuery is used?  
 [GitHub](2021_03_29_dbatools_in_detail_-_What_happens_when_Invoke-DbaQuery_is_used.md) / [blog.ordix.de](https://blog.ordix.de/dbatools-a-simple-database-query-with-invoke-dbaquery)
 
-How do I install the PowerShell module dbatools?
+How do I install the PowerShell module dbatools?  
 [GitHub](2021_04_24_How_do_I_install_the_PowerShell_module_dbatools.md)
 
-dbatools: How do I get started?
+dbatools: How do I get started?  
 [GitHub](2021_04_25_dbatools_-_How_do_I_get_started.md)
