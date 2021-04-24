@@ -2,7 +2,7 @@
 
 Autor: Andreas Jordan (anj@ordix.de)
 
-Published at: (Not yet published in english / german version: https://blog.ordix.de/vom-anwender-zum-entwickler)
+Published at: https://blog.ordix.de/powershell-module-dbatools-to-manage-microsoft-sql-servers
 
 
 ### First use in our training courses
