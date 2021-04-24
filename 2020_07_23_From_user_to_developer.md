@@ -1,6 +1,6 @@
 # From user to developer - using the PowerShell module dbatools to manage Microsoft SQL Servers
 
-Autor: Andreas Jordan (anj@ordix.de)
+Author: Andreas Jordan (anj@ordix.de)
 
 Published at: https://blog.ordix.de/powershell-module-dbatools-to-manage-microsoft-sql-servers
 

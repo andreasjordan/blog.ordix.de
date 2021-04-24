@@ -1,6 +1,6 @@
 # Using the SQL Server First Responder Kit with the PowerShell module dbatools
 
-Autor: Andreas Jordan (anj@ordix.de)
+Author: Andreas Jordan (anj@ordix.de)
 
 Published at: https://blog.ordix.de/sql-server-first-responder-kit-powershell-module-dbatools
 
