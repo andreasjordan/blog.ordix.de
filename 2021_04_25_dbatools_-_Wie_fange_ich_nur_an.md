@@ -2,6 +2,7 @@
 
 Autor: Andreas Jordan (anj@ordix.de)
 
+Veröffentlich unter: https://blog.ordix.de/dbatools-wie-fange-ich-nur-an
 
 
 Wann immer ich eine Schulung zur Administration des Microsoft SQL Servers halte, erzähle ich von den Vorzügen des PowerShell-Moduls dbatools. Ich kann damit viele administrative Aufgaben erledigen, ohne mich per RDP auf dem Server einzuwählen und ohne das SQL Server Management Studio zu starten. Gerade die Administration einer Vielzahl von Instanzen wird so von einer zentralen Stelle und mit einem einheitlichen Kontext möglich. Zudem kann ich mit einzelnen, einfachen und lesbaren Befehlen für Abfragen oder kleinere administrative Aufgaben starten. Später kann ich dann darauf aufbauend komplexe Programme schreiben, da PowerShell nicht nur eine Skriptsprache sondern eine komplette objektorientierte Programmiersprache ist. 

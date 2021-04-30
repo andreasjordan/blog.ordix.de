@@ -24,10 +24,10 @@ dbatools im Detail - Was passiert beim Aufruf von Invoke-DbaQuery?
 [GitHub](2021_03_29_dbatools_im_Detail_-_Was_passiert_beim_Aufruf_von_Invoke-DbaQuery.md) / [blog.ordix.de](https://blog.ordix.de/dbatools-aufruf-von-invoke-dbaquery)
 
 Wie installiere ich das PowerShell-Modul dbatools?  
-[GitHub](2021_04_24_Wie_installiere_ich_das_PowerShell-Modul_dbatools.md)
+[GitHub](2021_04_24_Wie_installiere_ich_das_PowerShell-Modul_dbatools.md) / [blog.ordix.de](https://blog.ordix.de/installiere-powershell-modul-dbatools)
 
 dbatools: Wie fange ich nur an?  
-[GitHub](2021_04_25_dbatools_-_Wie_fange_ich_nur_an.md)
+[GitHub](2021_04_25_dbatools_-_Wie_fange_ich_nur_an.md) / [blog.ordix.de](https://blog.ordix.de/dbatools-wie-fange-ich-nur-an)
 
 
 
