@@ -2,7 +2,7 @@
 
 Autor: Andreas Jordan (anj@ordix.de)
 
-Veröffentlich unter: https://blog.ordix.de/microsoft-sql-server-einrichten-einer-always-on-verfuegbarkeitsgruppe-mit-powershell-teil-3
+Veröffentlicht unter: https://blog.ordix.de/microsoft-sql-server-einrichten-einer-always-on-verfuegbarkeitsgruppe-mit-powershell-teil-3
 
 
 ## Teil 3: Die Microsoft SQL Server Instanzen

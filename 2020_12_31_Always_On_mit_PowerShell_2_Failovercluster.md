@@ -2,7 +2,7 @@
 
 Autor: Andreas Jordan (anj@ordix.de)
 
-Veröffentlich unter: https://blog.ordix.de/microsoft-sql-server-einrichten-einer-always-on-verfuegbarkeitsgruppe-mit-powershell-teil-2
+Veröffentlicht unter: https://blog.ordix.de/microsoft-sql-server-einrichten-einer-always-on-verfuegbarkeitsgruppe-mit-powershell-teil-2
 
 
 ## Teil 2: Das Windows Failovercluster

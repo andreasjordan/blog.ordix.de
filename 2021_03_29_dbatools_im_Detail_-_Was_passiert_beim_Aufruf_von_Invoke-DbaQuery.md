@@ -2,7 +2,7 @@
 
 Autor: Andreas Jordan (anj@ordix.de)
 
-Veröffentlich unter: https://blog.ordix.de/dbatools-aufruf-von-invoke-dbaquery
+Veröffentlicht unter: https://blog.ordix.de/dbatools-aufruf-von-invoke-dbaquery
 
 
 

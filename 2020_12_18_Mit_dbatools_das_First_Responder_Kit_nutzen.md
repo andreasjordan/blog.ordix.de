@@ -2,7 +2,7 @@
 
 Autor: Andreas Jordan (anj@ordix.de)
 
-Veröffentlich unter: https://blog.ordix.de/mit-dem-powershell-modul-dbatools-das-sql-server-first-responder-kit-nutzen
+Veröffentlicht unter: https://blog.ordix.de/mit-dem-powershell-modul-dbatools-das-sql-server-first-responder-kit-nutzen
 
 
 Das SQL Server First Responder Kit von Brent Ozar sollte den meisten Datenbank Administratoren bekannt sein, alle anderen schauen bitte [auf der Webseite von Brent Ozar](https://www.brentozar.com/first-aid/) oder [direkt im entsprechenden GitHub Repository](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit) vorbei.

@@ -2,7 +2,7 @@
 
 Autor: Andreas Jordan (anj@ordix.de)
 
-Veröffentlich unter: https://blog.ordix.de/vom-anwender-zum-entwickler
+Veröffentlicht unter: https://blog.ordix.de/vom-anwender-zum-entwickler
 
 
 ### Erster Einsatz in unseren Schulungen

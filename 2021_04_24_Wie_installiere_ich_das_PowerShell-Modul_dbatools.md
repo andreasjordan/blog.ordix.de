@@ -2,7 +2,7 @@
 
 Autor: Andreas Jordan (anj@ordix.de)
 
-Veröffentlich unter: https://blog.ordix.de/installiere-powershell-modul-dbatools
+Veröffentlicht unter: https://blog.ordix.de/installiere-powershell-modul-dbatools
 
 
 Regelmäßig werden im Kanal "[#dbatools](https://sqlcommunity.slack.com/#dbatools)" des Workspace "[SQL Server Community](https://sqlcommunity.slack.com/)" auf der Plattform [Slack](https://slack.com/intl/de-de/) Fragen nach der richtigen Installation des PowerShell-Moduls [dbatools](https://dbatools.io/) gestellt. Auf diese Frage gibt es verschiedene Antworten, viele davon sind in der [Dokumentation](https://dbatools.io/download/) beschrieben. Ich möchte hier beschreiben, wie ich die automatisierte Installation auf unseren virtuellen Schulungssystemen durchführe.
